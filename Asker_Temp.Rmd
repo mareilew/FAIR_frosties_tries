@@ -1,0 +1,19 @@
+---
+title: "Metadata"
+author: "Mareile Wolff"
+date: "May 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chung$set(echo=TRUE)
+```
+
+Before you begin, install the necessary packages
+```{r echo=TRUE}
+library(tidyverse)
+library(netcdf4)
+```
+
+## 1st Catching Title here
+First thing is well to get som temperature data for Asker station from frost..., let's do:
